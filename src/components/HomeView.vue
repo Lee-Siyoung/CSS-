@@ -1,6 +1,7 @@
 <template>
   <li @click="ColorPicker">ColorPicker</li>
   <li @click="InfiniteSlideshow">InfiniteSlideshow</li>
+  <li @click="GlowingButton">GlowingButton</li>
 </template>
 
 <script lang="ts">
@@ -17,10 +18,14 @@ export default defineComponent({
     const InfiniteSlideshow = () => {
       router.push("/InfiniteSlideshow");
     };
+    const GlowingButton = () => {
+      router.push("/GlowingButton");
+    };
 
     return {
       ColorPicker,
       InfiniteSlideshow,
+      GlowingButton,
     };
   },
 });
