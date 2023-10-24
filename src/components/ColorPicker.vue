@@ -58,10 +58,10 @@ export default defineComponent({
 }
 body {
   display: flex;
-  /* flex : 열로 정렬하는 일차원 레이아웃*/
-  /* grid :  행과 열로 정렬하는 이차원 레이아웃*/
+  /* flex : 열로 정렬하는 일차원 레이아웃 */
+  /* grid :  행과 열로 정렬하는 이차원 레이아웃 */
   justify-content: center;
-  /* 브라우저가 콘텐츠 항목 사이와 주변의 공간을 플렉스 컨테이너에서는 주축, 그리드 컨테이너에서는 인라인축을 기준으로 정렬*/
+  /* 브라우저가 콘텐츠 항목 사이와 주변의 공간을 플렉스 컨테이너에서는 주축, 그리드 컨테이너에서는 인라인축을 기준으로 정렬 */
   align-items: center;
   /* 직계 하위 항목에 대한 값을 그룹으로 설정, 플렉스 컨테이너에서는 교차축(주축에 수직), 그리드 컨테이너에서는 그리드 영역 내 블록 축의 항목을 정렬 */
   min-height: 100vh; /* 요소의 최소 높이 설정 */
@@ -91,7 +91,7 @@ body {
   border-radius: 20px;
   background: #1f1f1f;
   margin: 20px;
-  cursor: pointer; /* 요송 위에 마우스 커서가 올라갔을 때 보여줄 모양을 지정 */
+  cursor: pointer; /* 요소 위에 마우스 커서가 올라갔을 때 보여줄 모양을 지정 */
 }
 .colors span::before {
   /* ::before : 가상요소(선택자에 추가되며 존재하지 않는 요소를 존재하는 것처럼 부여) */
