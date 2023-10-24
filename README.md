@@ -1,4 +1,4 @@
-# test
+# CSS 공부
 
 https://www.youtube.com/@OnlineTutorialsYT 보면서 css 공부한 것들
 
