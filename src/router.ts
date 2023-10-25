@@ -4,6 +4,7 @@ import HomeView from "./components/HomeView.vue";
 import InfiniteSlideshow from "./components/InfiniteSlideshow.vue";
 import GlowingButton from "./components/GlowingButton.vue";
 import CustomRadioButton from "./components/CustomRadioButton.vue";
+import TransformiconsRadio from "./components/TransformiconsRadio.vue";
 
 const routes: Array<RouteRecordRaw> = [
   { path: "/", component: HomeView },
@@ -11,6 +12,7 @@ const routes: Array<RouteRecordRaw> = [
   { path: "/InfiniteSlideshow", component: InfiniteSlideshow },
   { path: "/GlowingButton", component: GlowingButton },
   { path: "/CustomRadioButton", component: CustomRadioButton },
+  { path: "/TransformiconsRadio", component: TransformiconsRadio },
 ];
 
 const router = createRouter({
