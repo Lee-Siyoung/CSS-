@@ -2,6 +2,13 @@
 
 https://www.youtube.com/@OnlineTutorialsYT 보면서 css 공부한 것들
 
+## 환경
+
+- window 11
+- vue3
+- composition api
+- typescript
+
 ## 결과
 
 - [ColorPicker](https://github.com/Lee-Siyoung/CSS-/tree/main/readme/ColorPicker.md)
