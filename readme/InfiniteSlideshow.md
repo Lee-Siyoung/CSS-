@@ -1,1 +1,1 @@
-![Alt text](InfiniteSlideshow.gif)
+![Alt text](./gif/InfiniteSlideshow.gif)

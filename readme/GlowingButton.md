@@ -1,1 +1,1 @@
-![Alt text](GlowingButton.gif)
+![Alt text](./gif/GlowingButton.gif)

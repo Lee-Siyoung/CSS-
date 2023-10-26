@@ -1,1 +1,1 @@
-![Alt text](colorpicker.gif)
+![Alt text](./gif/colorpicker.gif)
