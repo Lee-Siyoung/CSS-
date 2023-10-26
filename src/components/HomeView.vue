@@ -6,6 +6,7 @@
     <li @click="CustomRadioButton">CustomRadioButton</li>
     <li @click="TransformiconsRadio">TransformiconsRadio</li>
     <li @click="DropdownMenu">DropdownMenu</li>
+    <li @click="RainLightning">RainLightning</li>
   </div>
 </template>
 
@@ -35,6 +36,9 @@ export default defineComponent({
     const DropdownMenu = () => {
       router.push("/DropdownMenu");
     };
+    const RainLightning = () => {
+      router.push("/RainLightning");
+    };
 
     return {
       ColorPicker,
@@ -43,6 +47,7 @@ export default defineComponent({
       CustomRadioButton,
       TransformiconsRadio,
       DropdownMenu,
+      RainLightning,
     };
   },
 });
