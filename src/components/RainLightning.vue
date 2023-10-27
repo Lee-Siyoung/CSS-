@@ -91,4 +91,27 @@ body {
   background: #484f59;
   border-radius: 100px;
 }
+.container .cloud .drop {
+  position: absolute;
+  top: 0;
+  background: #05a2eb;
+  width: 2px;
+  height: 10px;
+  transform-origin: bottom;
+  animation: animate 2s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: translateY(0) scaleY(1);
+  }
+  70% {
+    transform: translateY(360px) scaleY(1);
+  }
+  80% {
+    transform: translateY(360px) scaleY(0.2);
+  }
+  100% {
+    transform: translateY(360px) scaleY(0.2);
+  }
+}
 </style>
